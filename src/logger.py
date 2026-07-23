@@ -12,3 +12,4 @@ logging.basicConfig(level=logging.INFO,format='%(asctime)s |  %(levelname)s |%(n
                         logging.StreamHandler(), 
                         ])
 logger.info(" should this be logged in a file?")
+
